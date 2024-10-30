@@ -1,0 +1,23 @@
+推荐使用：谷歌浏览器
+
+网址：http://localhost:8080/sf-ssmj
+
+访客需要选中所选单选按钮，点击登录就行了 用户名 和 密码 输入或不输入都行
+
+
+
+用户：111 密码：111
+
+管理员  admin  密码：admin     
+ 
+
+如果运行sql文件报错，就创建一个数据表，表的名称和sql文件名称保持一致
+
+
+在fz-ssmj/src/main/resources/config.properties中编辑
+
+jdbc_url=jdbc:mysql://127.0.0.1:3306/sf-ssmj?useUnicode=true&characterEncoding=UTF-8&tinyInt1isBit=false
+jdbc_username=root
+jdbc_password=123456
+
+图片存放路径： src\main\webapp\upload 里面上传图片名里面不能有中文
